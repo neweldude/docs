@@ -31,7 +31,7 @@ Compile and run the server
 
 ```bash
 go build server.go
-./server.go
+./server
 ```
 
 Now open `http://localhost:8090/ping` in your browser and you must see `pong`.
@@ -110,20 +110,21 @@ func main() {
 }
 ```
 
-Run the example 
-```bash
+Run the example
+
+```sh
 go mod init prom_example
 go mod tidy
-go run main.go
+go run server.go
 ```
 
 Now hit the localhost:8090/ping endpoint a couple of times and sending a request to localhost:8090 will provide the metrics.
 
 [![Ping Metric](/assets/tutorial/ping_metric.png)](/assets/tutorial/ping_metric.png)
 
-Here the ping_request_count shows that `/ping` endpoint was called 3 times.
+Here the `ping_request_count` shows that `/ping` endpoint was called 3 times.
 
-The DefaultRegister comes with a collector for go runtime metrics and that is why we see other metrics like go_threads, go_goroutines etc.
+The Default Register comes with a collector for go runtime metrics and that is why we see other metrics like `go_threads`, `go_goroutines` etc.
 
 We have built our first metric exporter. Let’s update our Prometheus config to scrape the metrics from our server.
 

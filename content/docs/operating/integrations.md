@@ -44,7 +44,7 @@ data volumes.
   * [Cortex](https://github.com/cortexproject/cortex): read and write
   * [CrateDB](https://github.com/crate/crate_adapter): read and write
   * [Elasticsearch](https://www.elastic.co/guide/en/beats/metricbeat/master/metricbeat-metricset-prometheus-remote_write.html): write
-  * [Gnocchi](https://gnocchi.xyz/prometheus.html): write
+  * [Gnocchi](https://gnocchi.osci.io/prometheus.html): write
   * [Google BigQuery](https://github.com/KohlsTechnology/prometheus_bigquery_remote_storage_adapter): read and write
   * [Google Cloud Spanner](https://github.com/google/truestreet): read and write
   * [Grafana Mimir](https://github.com/grafana/mimir): read and write
@@ -54,6 +54,7 @@ data volumes.
   * [IRONdb](https://github.com/circonus-labs/irondb-prometheus-adapter): read and write
   * [Kafka](https://github.com/Telefonica/prometheus-kafka-adapter): write
   * [M3DB](https://m3db.io/docs/integrations/prometheus/): read and write
+  * [Mezmo](https://docs.mezmo.com/telemetry-pipelines/prometheus-remote-write-pipeline-source): write
   * [New Relic](https://docs.newrelic.com/docs/set-or-remove-your-prometheus-remote-write-integration): write
   * [OpenTSDB](https://github.com/prometheus/prometheus/tree/main/documentation/examples/remote_storage/remote_storage_adapter): write
   * [QuasarDB](https://doc.quasardb.net/master/user-guide/integration/prometheus.html): read and write
@@ -91,13 +92,12 @@ For notification mechanisms not natively supported by the Alertmanager, the
   * [Phabricator / Maniphest](https://github.com/knyar/phalerts)
   * [prom2teams](https://github.com/idealista/prom2teams): forwards notifications to Microsoft Teams
   * [Ansible Tower](https://github.com/pja237/prom2tower): call Ansible Tower (AWX) API on alerts (launch jobs etc.)
-  * [Rocket.Chat](https://rocket.chat/docs/administrator-guides/integrations/prometheus/)
-  * [ServiceNow](https://github.com/FXinnovation/alertmanager-webhook-servicenow)
   * [Signal](https://github.com/dgl/alertmanager-webhook-signald)
   * [SIGNL4](https://www.signl4.com/blog/portfolio_item/prometheus-alertmanager-mobile-alert-notification-duty-schedule-escalation)
   * [SMS](https://github.com/messagebird/sachet): supports [multiple providers](https://github.com/messagebird/sachet/blob/master/examples/config.yaml)
   * [SNMP traps](https://github.com/maxwo/snmp_notifier)
   * [Squadcast](https://support.squadcast.com/docs/prometheus)
+  * [STOMP](https://github.com/thewillyhuman/alertmanager-stomp-forwarder)
   * [Telegram bot](https://github.com/inCaller/prometheus_bot)
   * [xMatters](https://github.com/xmatters/xm-labs-prometheus)
   * [XMPP Bot](https://github.com/jelmer/prometheus-xmpp-alerts)

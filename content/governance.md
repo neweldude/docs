@@ -49,10 +49,12 @@ In case a member leaves, the [offboarding](#offboarding) procedure is applied.
 The current team members are:
 
 * Augustin Husson ([Amadeus](https://amadeus.com))
-* Bartłomiej Płotka ([Red Hat](https://www.redhat.com/))
+* Bartłomiej Płotka ([Google](https://www.google.com/))
 * Ben Kochie ([Reddit](https://www.redditinc.com/))
+* Ben Reedy ([Indue Ltd](https://www.indue.com.au))
 * Björn Rabenstein ([Grafana Labs](https://grafana.com/))
 * Bryan Boreham ([Grafana Labs](https://grafana.com/))
+* Calle Pettersson ([Instabee Group](https://instabee.com/))
 * Callum Styan ([Grafana Labs](https://grafana.com/))
 * Chris Marchbanks ([Grafana Labs](https://grafana.com/))
 * Chris Sinjakli ([PlanetScale](https://planetscale.com/))
@@ -61,6 +63,7 @@ The current team members are:
 * Frederic Branczyk ([Polar Signals](https://www.polarsignals.com/))
 * Ganesh Vernekar ([Grafana Labs](https://grafana.com/))
 * Goutham Veeramachaneni ([Grafana Labs](https://grafana.com/))
+* Jesús Vázquez ([Grafana Labs](https://grafana.com/))
 * Johannes Ziemke ([5π Consulting](https://5pi.de/))
 * Josh Abreu ([Grafana Labs](https://grafana.com/))
 * Julius Volz ([PromLabs](https://promlabs.com/))
